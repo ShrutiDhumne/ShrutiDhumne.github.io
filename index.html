@@ -1,528 +1,634 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Shruti's</title>
-    <meta name="description" content="Portfolio Template for Developer" />
+    <head>
+        <meta charset="utf-8">
+        <title>Shruti's Portfolio</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
 
-    <link rel="stylesheet" href="css/style.css" />
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-    
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/png/profile.jpeg"
-              alt="Ram Maheshwari Logo Image"
-              class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">Shruti </span>
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Shruti's Portfolio</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <!-- <a href="#service" class="nav-item nav-link">Service</a> -->
+                        <a href="#experience" class="nav-item nav-link">Internship</a>
+                        <a href="#project" class="nav-item nav-link">Project</a>
+                        <a href="#Skills" class="nav-item nav-link">Skills</a>
+                        <a href="#achivement" class="nav-item nav-link">Achivements</a>
+                        <a href="#certification" class="nav-item nav-link">Certification</a>
+                        <!-- <a href="#review" class="nav-item nav-link">Review</a>
+                        <a href="#team" class="nav-item nav-link">Team</a>
+                        <a href="#blog" class="nav-item nav-link">Blog</a> -->
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#certifications" class="header__link">
-                Certifications
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
-        </div>
-      </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
+        <!-- Nav Bar End -->
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
-          <li class="header__sm-menu-link">
-              <a href="./index.html#certifications"> Certifications </a>
-            </li>
-            
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
-           
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
+
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="img/veritas.jpeg" alt="Hero Image">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <p>I'm</p>
+                                <h1>Shruti Dhumne</h1>
+                                <h2></h2>
+                                <div class="typed-text">Software Engineer, Angular Developer, Python Developer</div>
+                            </div>
+                            <!-- <div class="hero-btn">
+                                <a class="btn" href="">Hire Me</a>
+                                <a class="btn" href="">Contact Me</a>
+                            </div> -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-      </div>
-    </header>
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">Hello, I am  <br>Shruti Dhumne</h1>
+        <!-- Hero End -->
+
+
+        <!-- About Start -->
+        <!-- <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/about.jpg" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>Learn About Me</p>
+                                <h2>10 Years Experience</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida
+                                </p>
+                            </div>
+                            <div class="skills">
+                                <div class="skill-name">
+                                    <p>Web Design</p><p>85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Web Development</p><p>95%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Apps Design</p><p>90%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Apps Development</p><p>85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- About End -->
         
-        <div class="home-hero__info">
-          <p class="text-primary">
-            Software Development intern at veritas technologies LLC
-            <br>  Undergrad in CSE from MITAOE, Also Diploma in CSE 
-            <br>"Passionate about solving complex problems and delivering high quality solutions"
-          </p>
+        
+        <!-- Service Start -->
+        <!-- <div class="service" id="service">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>What I do</p>
+                    <h2>Awesome Quality Services</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Web Design</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-laptop-code"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Web Development</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Apps Design</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Apps Development</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Service End -->
+        
+        <!-- Testimonial Start -->
+        <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container">
+                <div class="testimonial-icon">
+                    <i class="fa fa-quote-left"></i>
+                </div>
+                <div class="owl-carousel testimonials-carousel">
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="img/Shruti.jpeg" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>To pursue a challenging career and be a part of progressive organization that gives scope to enhance knowledge & skills. Be accountable to lead the company on right path of growth & profitability for effective organization.</p>
+                            <!-- <h3>Customer Name</h3>
+                            <h4>Profession</h4> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Testimonial End-->
+        
+         <!-- Experience Start -->
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Resume</p>
+                    <h2>Internship Experience</h2>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Jan 2023 - Ongoing</div>
+                            <h2>Associate Software Engineer</h2>
+                            <h4>Veritas Technologies LLC</h4>
+                            <p>
+                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">June 2022 - July 2022</div>
+                            <h2>Industrail Trainee</h2>
+                            <h4>eSamyak Software</h4>
+                            <p>Making the webpages of the websites responsive using Bootstrap.
+                                Updating the old modules of upload excel (.xls) and download excel (.xls) to other versions of excels (.xls, .xlsx, .csv) using Apache POI, Servlet,
+                                JSP.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Feb 2022 - March 2022</div>
+                            <h2>Backend Developer</h2>
+                            <h4>Famepilot Private Limited</h4>
+                            <p>Used Selenium and Beautiful Soup for scrapping all the customer reviews from various websites. Stored the scraped data into the database and
+                                displayed data on the company website using Django REST Framework.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Aug 2021 - Frb 2022</div>
+                            <h2>Technology Platform Development & Research Intern</h2>
+                            <h4>EvolvingX</h4>
+                            <p>Project: Disaster Management
+                                “Disaster Management” is a Platform where the NGO’s, NSS Volunteer's and Government can provide help to the place where disaster (eg. Flood)
+                                has occurred.
+                                NSS Volunteer's can send request on the website, NGO's can accept/decline/suggest to the request and this process will be monitored by the
+                                government. I had developed the frontend with HTML, Bootstrap, JavaScript, CSS. The backed part is handled with the Django REST framework. I
+                                have also developed Django REST API’s for the portal.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">May 2019 - June 2019</div>
+                            <h2>Software Tester</h2>
+                            <h4>Ciena India Pvt Ltd</h4>
+                            <p>Designed test cases using automated testing tools like Testim and Selenium Webdriver. The test cases were mostly developed for UI testing and
+                                Unit testing for the company's website.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- Job Experience End -->
+        
+    <!-- Project Start -->
+    <div class="experience" id="project">
+        <div class="container">
+            <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>My Projects</p>
+                <h2>Projects</h2>
+            </header>
+            <div class="timeline">
+                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">Aug 2021 - Nov 2022</div> <a href="emotron.html">
+                        <h2>End-to-End Emotion Dependent TTS System</h2></a>
+                        <!-- <h4>Veritas Technologies LLC</h4> -->
+                        <p>
+                            Design and develop a text-to-speech synthesis system which generates expressive speech unlike many conventional text-to-speech systems that
+                            generate robotic speech. To achieve this we used technologies like Tacotron-2, Hifi-GAN, Natural Language Processing, Neural Network (LSTM,
+                            RNN, CNN). 
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">Feb 2021 - April 2021</div> <a href="smartattendancesystem.html">
+                        <h2>Smart Attendance System</h2></a>
+                        <!-- <h4>eSamyak Software</h4> -->
+                        <p>"Smart Attendance System" is a facial recognition based attendance system which marks
+                            attendance of student using Haar Cascade facial recognition algorithm. We also used other technologies like SQL, OpenCV, Python.
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                    <div class="timeline-text">
+                        <div class="timeline-date">Nov 2019 - April 2020</div><a href="RCcar.htmls">
+                        <h2>Autonomous RC Car</h2></a>
+                        <!-- <h4>Famepilot Private Limited</h4> -->
+                        <p>We can consider this project as the mini version of the todays self driving cars. We converted remote control car into the self-driving car using
+                            technologies like Python, Computer Vision, Deep Learning (CNN), Raspberry pi 3b+, L293d motor driver, raspberry pi camera module, OpenCV.
+                            Also, the input from the pi camera was live streamed on a website
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Project End --> 
+        <!-- Banner Start -->
+        <!-- <div class="banner wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Reasonable Price</p>
+                    <h2>Get A <span>Special</span> Price</h2>
+                </div>
+                <div class="container banner-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
+                    </p>
+                    <a class="btn">Pricing Plan</a>
+                </div>
+            </div>
+        </div> -->
+        <!-- Banner End -->
+
+
+        <!-- Portfolio Start -->
+        <div class="portfolio" id="Skills">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <!-- <p>My Portfolio</p> -->
+                    <h2>My Skills</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul id="portfolio-filter">
+                            <!-- <li data-filter="*" class="filter-active">All</li> -->
+                            <li data-filter=".filter-1">Python </li>
+                            <li data-filter=".filter-2">Django REST</li>
+                            <li data-filter=".filter-3">Machine Learning</li>
+                            <li data-filter=".filter-3">Angular</li>
+                            <li data-filter=".filter-3">Data Structure</li>
+                            <li data-filter=".filter-3">SQL</li>
+                            <li data-filter=".filter-3">Web Development</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-1.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>eCommerce Website</h3>
+                                <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-2.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Product Landing Page</h3>
+                                <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-3.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>JavaScript quiz game</h3>
+                                <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-4.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>JavaScript drawing</h3>
+                                <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-5.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Social Mobile Apps</h3>
+                                <a class="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-6.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Company Website</h3>
+                                <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Portfolio End -->
+        
        
-      </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a href="https://www.linkedin.com/in/shruti-dhumne/" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/linkedin-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
+        <!-- Team End -->
+        <div class="blog" id="achiements">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <!-- <p>From Achi</p> -->
+                    <h2>Achivements</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="blog-img">
+                                <img src="img/SIH.JPG" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Smart India Hackathon 2022 Winner</h2>
+                                <!-- <div class="blog-meta">
+                                    <p><i class="far fa-user"></i>Admin</p>
+                                    <p><i class="far fa-list-alt"></i>Web Design</p>
+                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                                    <p><i class="far fa-comments"></i>5</p>
+                                </div> -->
+                                <!-- <p>
+                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                                </p>
+                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="blog-img">
+                                <img src="img/datathon.jpg" alt="Blog">
+                            </div>
+                            <div class="blog-text">
+                                <h2>Datathon Winner</h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="home-hero__social">
-          <a href="https://github.com/ShrutiDhumne" class="home-hero__social-icon-link">
-            <img
-              src="./assets/png/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
+        <div class="team" id="certification">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <!-- <p>My Team</p> -->
+                    <h2>Certification</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/AI900.png" alt="Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>
+                                    MICROSOFT CERTIFIED: AZURE AI FUNDAMENTALS</h2>
+                                <h4>Issued Date: January 29, 2022</h4>
+                                <!-- <p>
+                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                                </p> -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/MTA.png" alt="Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>MTA: INTRODUCTION TO PROGRAMMING USING PYTHON - CERTIFIED 2019</h2>
+                                <h4>Issued Date: October 13, 2019</h4>
+                                <!-- <p>
+                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                                </p> -->
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      
-        <div class="home-hero__social">
-          <a
-            href="https://www.instagram.com/_.shruti.dhumne._/"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-          >
-            <img
-              src="./assets/png/insta-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"
-            />
-          </a>
+        <!-- Contact Start -->
+        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-8">
+                            <div class="contact-form">
+                                <div id="success"></div>
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <p class="help-block"></p>
+                                    </div>
+                                    <div>
+                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
-      </div>
-    </section>
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">About Me</span>
-          <span class="heading-sec__sub">
-            I am a software developer with a passion for creating innovative and user-friendly applications.
-            In addition to my technical skills, I am a creative problem-solver with a keen eye for design. I believe that great software should not only function well, but also look great and provide a seamless user experience. 
-          </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Get to know me!</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                Hey! It's
-                <strong>Shruti Dhumne</strong>
-                and I'm a <strong> Software Engineer </strong> located in
-                Pune, India. I've done
-                <strong> remote </strong>
-                projects for agencies like <strong>YIE(Youth India E-School)</strong> and <strong>Prestine Solutions</strong>.
-                
-              </p>
-              <p class="about__content-details-para">
-                I am a strong believer in continuous learning and staying up-to-date with the latest technologies and trends. I am always looking for new challenges and opportunities to grow as a developer. Whether it's learning a new programming language or experimenting with a new framework, I am constantly pushing myself to expand my skillset.
-                
-              </p>
-            </div>
-            <span> <a href="./index.html#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a></span>
-                    </li>
-           
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">My Skills</h3>
-            <div class="skills">
-              <div class="skills__skill">MYSQL</div>
-              <div class="skills__skill">Android Studio</div>
-              <div class="skills__skill">Java Spring</div>
-              <div class="skills__skill">ORM framework</div>
-              <div class="skills__skill">Java 8</div>
-              <div class="skills__skill">Python</div>
-              <div class="skills__skill">DevOps</div>
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">React</div>
-              <div class="skills__skill">AWS</div>
-              <div class="skills__skill">GIT</div>
-              <div class="skills__skill">Jenkins</div>
-              <div class="skills__skill">C++</div>
-              
-              
+        <!-- Contact End -->
 
 
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <h2>Shruti Dhumne</h2>
+                        <h3>Pune, Maharashtra, India</h3>
+                        <div class="footer-menu">
+                            <p>+91 8788933422</p>
+                            <p>shrutidhumne29@gmail.com</p>
+                        </div>
+                        <div class="footer-social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/shruti-dhumne-85b24616b/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <!-- <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved | Designed By <a href="https://htmlcodex.com">HTML Codex</a></p> -->
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
-
-
-    <section id="certifications" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Certifications</span>
-          <span class="heading-sec__sub">
-             I am committed to continuously improving my skills and staying up-to-date with the latest technologies and industry trends. 
-             <br>Here are some of the certifications I have earned throughout my career        </h2>
-
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/aws.png"
-                alt="Software Screenshot"
-                
-                loading="lazy"
-                style="size: 100px;padding-left: 200px;"
-              />
-            </div>
-            <div class="projects__row-conten" style="">
-              <h3 class="projects__row-content-title">AWS Cloud Practioner</h3>
-              <p class="projects__row-content-desc">
-                The AWS Certified Cloud Practitioner offers a foundational understanding of AWS Cloud concepts, services, and terminology               <br> <strong>Issued On:</strong>November 2023
-                <br><strong> Issued by:</strong> AWS<br>
-                
-              </p>
-             
-            </div>
-           
-          </div>
-
-          <!--Certificate 2-->
-
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/image.png"
-                alt="Software Screenshot"
-                
-                loading="lazy"
-                style="size: 10px;padding-left: 200px;height: 400px;padding-bottom: 100px;"
-              />
-            </div>
-            <div class="projects__row-conten" style="">
-              <h3 class="projects__row-content-title">AWS Academy Graduate </h3>
-              <p class="projects__row-content-desc">
-                AWS Academy is a global program that provides educational institutions and educational nonprofits (collectively, “institutions”) with access to an AWS-developed and authorized curriculum so they can more easily offer cloud computing courses to their students.
-                                <br><strong> Issued by:</strong> AWS<br>
-                
-              </p>
-             
-            </div>
-           
-          </div>
-
-          <!--Certificate 3-->
-
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/imagemic.png"
-                alt="Software Screenshot"
-                
-                loading="lazy"
-                style="size: 10px;padding-left: 200px;height: 400px;padding-bottom: 100px;"
-              />
-            </div>
-            <div class="projects__row-conten" style="">
-              <h3 class="projects__row-content-title">Microsoft: Azure Fundamentals </h3>
-              <p class="projects__row-content-desc">
-                Azure Fundamentals exam is an opportunity to prove knowledge of cloud concepts, Azure services, Azure workloads, security and privacy in Azure, as well as Azure pricing and support. Candidates should be familiar with the general technology concepts, including concepts of networking, storage, compute, application support, and application development                         
-                       <br><strong> Issued by:</strong> Microsoft<br>
-                
-              </p>
-             
-            </div>
-           
-          </div>
-          
-            
-         
-        </div>
-      </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projects</span>
-          <span class="heading-sec__sub">
-            As a software developer, I have worked on a variety of projects across different Domains. Here are some of the projects I have worked on recently          </span>
-        </h2>
-
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/Screenshot (168).png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-                style="size: 10px;padding-left: 220px;height: 400px;padding-bottom: 100px;padding-right: 150px;padding-top: 20px;"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Kid-O-Pedia</h3>
-              <p class="projects__row-content-desc">
-                Augmented Reality based Android Application for kids to learn rhymes in an effective way.<br>
-                <strong>Technologies:</strong>Blender, Android Studio
-                <strong> Won UBA(Unnat bharat Abhiyan) 2023</strong><br>
-                <strong>
-                  Accepted By JETIR(Journal of Emerging Technologies and Inovative Research) Issue 11
-                </strong>
-              </p>
-             
-            </div>
-          </div>
-
-<!---Project 2-->
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/png/Untitled.png"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-                style="padding-left: 150px;padding-right: 100px;"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">'BeSafe'-Women safety android application</h3>
-              <p class="projects__row-content-desc">
-                android application to help women in emergency situations. The intention is to provide different types of help to make sure she will reach some help. This application runs based on a few moments using sensors. After activation it performs multiple actions like phone calls, sms with location, safety alarms, click pictures. It also comes with an advanced feature where location will be updated every five minutes. Future scope is to build a network with different safety agencies and police.                <strong>Technologies:</strong>Blender, Android Studio
-                <strong> </strong><br>
-               
-              </p>
-             
-            </div>
-          </div>          
-          <!--
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 2</h3>
-              <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
-              </p>
-              <a
-                href="./project-2.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
-          </div>
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Project 3</h3>
-              <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
-              </p>
-              <a
-                href="./project-3.html"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Case Study</a
-              >
-            </div>
-          </div>
-          -->
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="contact sec-pad dynamicBg">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-          <span class="heading-sec__sub heading-sec__sub--lt">
-            "I'm just a email away, and I promise to be more responsive than your average rock."
-          </span>
-        </h2>
-        <div class="contact__form-container">
-          <form action="prajyoti731@gmail.com" class="contact__form">
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Name</label>
-              <input
-                required
-                placeholder="Enter Your Name"
-                type="text"
-                class="contact__form-input"
-                name="name"
-                id="name"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
-              <input
-                required
-                placeholder="Enter Your Email"
-                type="text"
-                class="contact__form-input"
-                name="email"
-                id="email"
-              />
-            </div>
-            <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Message</label>
-              <textarea
-                required
-                cols="30"
-                rows="10"
-                class="contact__form-input"
-                placeholder="Enter Your Message"
-                name="message"
-                id="message"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn btn--theme contact__btn">
-              Submit
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/shruti-dhumne/">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/ShrutiDhumne">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-            
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/_.shruti.dhumne._/">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Shruti Dhumne</h4>
-            <p class="main-footer__short-desc">
-              "Transforming the way we work and Communicate"
-            </p>
-          </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
         </div>
 
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="#"
-            >Shruti Dhumne</a
-          >
-        </div>
-      </div>
-    </footer>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
 
-    <script src="./index.js"></script>
-    <script src="/assets/typed.js/typed.min.js"></script>
-  </body>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
